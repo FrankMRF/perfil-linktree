@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     background-color: #f7ecf5;
     display: flex;
@@ -22,59 +24,7 @@ body{
     text-align: center;
 }
 
-#secundario{
-    font-size: 12px;
-    margin-top: 10px;
-}
-
-#botones button{
-    display: block;
-    align-content: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-left: 25px;
-    width: 250px;
-    background-color: white; 
-    color: black; 
-    padding: 12px 24px; 
-    font-size: 16px; 
-    border-radius: 8px; 
-    font-family: 'Roboto';
-    cursor: pointer; 
-    transition: all 0.3s ease;
-}
-
-#b1:hover{
-    background-color: transparent;
-}
-
-.b2 {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: white;
-    color: black;
-    text-decoration: none;
-    border-radius: 8px;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-    border-left: 2px solid gray;
-    border-top: 2px solid gray;
-    text-align: center;
-    font-size: 16px;
-    margin-top: 10px;
-    width: 250px;
-    transition: all 0.3s ease;
-}
-
-.b2:hover{
-    background-color: transparent;
-}
-
-
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-#principal header h1{
+#hed h1{
     font-family: 'Lexend+Deca';
     margin-top: 10px;
     color: white;
@@ -90,6 +40,34 @@ body{
     margin: auto;
     margin-top: 50px;
 }
+
+#secundario{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.b2 {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid gray;
+    border-top: 2px solid gray;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 250px;
+    font-family: 'Roboto';
+    transition: all 0.3s ease;
+}
+
+.b2:hover{
+    background-color: transparent;
+}
+
 #iconos{
     display: flex;
     align-content: center;
