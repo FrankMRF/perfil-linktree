@@ -1,10 +1,13 @@
-//let principalDOM = document.getElementById("principal");
-//let hedDOM = document.getElementById("hed")
-/*hedDOM.innerHTML=`
-    <img src="./images/Frankm.jpg>
-`*/
-const boton = document.getElementById('b1');
+//document.querySelector('h1').textContent='Miguel Flores'
 
-boton.addEventListener('click', function(){
-    boton.style.backgroundColor = 'blue';
-});
+let principalDOM = document.getElementById("hed")
+principalDOM.innerHTML=`
+    <h1>Frank Ramos</h1>
+`
+
+let secundarioDOM = document.querySelector("#secundario")
+secundarioDOM.innerHTML=`
+    <p>Desarrollador junior | Inversionista novato</p>
+`
+let iconosDOM = document.querySelector("#iconos")
+iconosDOM.style.color = 'white';

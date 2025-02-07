@@ -11,7 +11,7 @@ body{
     justify-content: center;
 }
 
-body #principal{
+#principal{
     background: linear-gradient(to bottom, #d6703d, #1e1e1e);
     border-radius: 16px;
     box-shadow: 5px 5px 1px black;
@@ -22,7 +22,7 @@ body #principal{
     text-align: center;
 }
 
-body #principal main #secundario{
+#secundario{
     font-size: 12px;
     margin-top: 10px;
 }
@@ -35,28 +35,56 @@ body #principal main #secundario{
     margin-top: 10px;
     margin-left: 25px;
     width: 250px;
-    background-color: white; /* Fondo blanco */
-    color: black; /* Texto negro */
-    /*border: 2px solid black; /* Borde negro */
-    padding: 12px 24px; /* Espaciado interno */
-    font-size: 16px; /* Tamaño del texto */
-    border-radius: 8px; /* Bordes redondeados */
-    cursor: pointer; /* Cursor tipo mano */
-    transition: all 0.3s ease; /* Animación suave */
+    background-color: white; 
+    color: black; 
+    padding: 12px 24px; 
+    font-size: 16px; 
+    border-radius: 8px; 
+    font-family: 'Roboto';
+    cursor: pointer; 
+    transition: all 0.3s ease;
 }
 
-@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
+#b1:hover{
+    background-color: transparent;
+}
+
+.b2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid gray;
+    border-top: 2px solid gray;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 250px;
+    transition: all 0.3s ease;
+}
+
+.b2:hover{
+    background-color: transparent;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 #principal header h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lexend+Deca';
     margin-top: 10px;
     color: white;
     font-size: 17px;
 }
 
 #i1{
-    width: 80px;
+    width: 70px;
     height: 70px;
+    object-fit: cover;
     border-radius: 50%;
     display: block;
     margin: auto;
@@ -65,7 +93,7 @@ body #principal main #secundario{
 #iconos{
     display: flex;
     align-content: center;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 #iconos img{
@@ -79,5 +107,5 @@ body #principal main #secundario{
 
 footer{
     font-size: 10px;
-    margin-top: 80px;
+    margin-top: 100px;
 }
